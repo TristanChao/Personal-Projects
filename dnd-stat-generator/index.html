@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>D&D Stat Generator</h1>
+  </div>
+  <div id="score_generate_div" class="form_div">
+    <h4>Here you can input information about your class if you like, or just skip to generating your scores.</h4>
+    <form id="score_generate">
+      <div>  
+        <label for="race-input">Enter your character race here.</label>
+        <input id="race-input" name="race-input" />
+      </div>
+      
+      <div>
+        <label for="generate_btn">Click to generate your scores!</label>
+        <button>Generate!</button>
+      </div>
+    </form>
+    <p id='ability_scores'></p>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
